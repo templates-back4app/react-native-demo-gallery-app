@@ -6,10 +6,10 @@
 
 <h2 align="center">React Native Demo Gallery App</h2>
 
-<p align="center">
-  An <b>React Native</b> sample App that users `Parse.File`  to store and retrieve files.
-  
-  This project is a reference to [Back4app Storage documentation](https://www.back4app.com/docs/react-native/parse-sdk/react-native-files)
+An <b>React Native</b> sample App that users `Parse.File` to store and retrieve files.
+
+This project is a reference to [Back4app Storage documentation](https://www.back4app.com/docs/react-native/parse-sdk/react-native-files)
+
 </p>
 
 ### How to run this project
