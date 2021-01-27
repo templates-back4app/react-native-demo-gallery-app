@@ -15,7 +15,11 @@ This project is a reference to [Back4app Storage documentation](https://www.back
 ### How to run this project
 
 1. Clone the project
-   `git clone https://github.com/templates-back4app/react-native-demo-gallery-app`
+
+```
+git clone https://github.com/templates-back4app/react-native-demo-gallery-app
+
+```
 
 2. Install dependencies
 
@@ -30,7 +34,7 @@ yarn install
 npm install
 ```
 
-3. Run React Native application
+3. Run
 
 For iOS:
 
@@ -39,5 +43,3 @@ For iOS:
 For Android:
 
 `npx react-native run-android`
-
-4. Done!
