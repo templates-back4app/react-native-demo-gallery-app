@@ -15,8 +15,7 @@ const UploadImage = ({onSuccess}) => {
 
       const Gallery = Parse.Object.extend('Gallery');
       const gallery = new Gallery();
-      gallery.set('url', responseFile.url());
-      gallery.set('name', responseFile.name());
+      gallery.set('picture', responseFile);
 
       await gallery.save();
       Alert.alert('The file has been saved to Back4app.');
