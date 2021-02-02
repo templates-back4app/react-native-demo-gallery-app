@@ -24,7 +24,10 @@ const Gallery = () => {
       numColumns={3}
       ListEmptyComponent={() => <Text>You don't have images uploaded.</Text>}
       renderItem={({item}) => (
-        <Image source={{uri: item.get('url')}} style={styles.imageItem} />
+        <Image
+          source={{uri: item.get('picture').url()}}
+          style={styles.imageItem}
+        />
       )}
       keyExtractor={(item) => item.id}
     />
